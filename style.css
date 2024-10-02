@@ -223,6 +223,8 @@ body {
 .quiz-section .quiz-box {
     position: relative;
     width: 500px;
+    height: 650px;
+    overflow-y: auto;
     background: rgba(0, 0, 0, 0.419);
     border: 2px solid rgb(229, 190, 93);
     border-radius: 6px;

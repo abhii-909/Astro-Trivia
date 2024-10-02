@@ -143,7 +143,7 @@ function optionSelected(elem, quesIndex, selectedOptionIndex) {
         const nodeIndex = questions[quesIndex].options.findIndex((e) => e === questions[quesIndex].answer)
         console.log(nodeIndex, options[nodeIndex].classList.add('optionCorrect'))
         elem.classList.add('optionIncorrect');
-        userScore ? userScore = userScore - 0.5 : userScore;
+        // userScore ? userScore = userScore - 0.5 : userScore;
     }
     headerScore();
     options.forEach((e) => e.classList.add('disabled'))
